@@ -1,0 +1,594 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59351900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5057575500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 789260200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2140745600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_search_the_mobile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248939400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10237926500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 820500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3158543300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 833519800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2431378200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user search the mobile by using oneD list",
+            "match": {
+              "location": "Mobileaddcart.user_search_the_mobile_by_using_oneD_list(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "vivo",
+                  "realme",
+                  "redmi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180329000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12067967800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 415800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3801435700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 855871600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3040686600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user search the mobile by using oneD map",
+            "match": {
+              "location": "Mobileaddcart.user_search_the_mobile_by_using_oneD_map(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mobile1",
+                  "realme"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile2",
+                  "vivo"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile3",
+                  "redmi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185024300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8624746200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 800100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3137726600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 799501300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2432879300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search the mobile \"REALME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"REALME\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Mobileaddcart.user_search_the_mobile(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193097700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9394390800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 425900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3359078900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 813823000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2395330800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search the mobile \"redmi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"redmi\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Mobileaddcart.user_search_the_mobile(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294658700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9262315300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1414500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter Amazon url",
+            "match": {
+              "location": "Mobileaddcart.user_enter_Amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3457127400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "add to cart",
+        "description": "",
+        "id": "mobil;add-to-cart;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 780742700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hoooks.afterScenrio(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2201402900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search the mobile \"VIVO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VIVO\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Mobileaddcart.user_search_the_mobile(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198970600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user select the mobile",
+            "match": {
+              "location": "Mobileaddcart.user_select_the_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8326243800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user add to cart mobile",
+            "match": {
+              "location": "Mobileaddcart.user_add_to_cart_mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "mobil",
+    "description": "",
+    "id": "mobil",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/mobil.feature",
+    "tags": []
+  }
+]

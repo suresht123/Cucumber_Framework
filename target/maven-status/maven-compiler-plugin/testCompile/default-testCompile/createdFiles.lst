@@ -1,0 +1,5 @@
+com\amzn\stepdefenition\Mobileaddcart.class
+com\amazon\object\mobipage.class
+com\amazon\resources\CommonActions.class
+com\amzn\stepdefenition\Hoooks.class
+com\amzn\stepdefenition\TestRunner.class
