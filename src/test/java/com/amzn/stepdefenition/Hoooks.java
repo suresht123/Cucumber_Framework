@@ -35,6 +35,7 @@ public class Hoooks extends CommonActions{
 		   Scenario.embed(screenshot, "image.png");
 		   
 	   }
+	   driver.close();
 	   
 	   driver.quit();
 
